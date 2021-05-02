@@ -1,0 +1,8 @@
+prefix=/home/team1/autonomy_ws/devel
+
+Name: object_painter
+Description: Description of object_painter
+Version: 0.0.0
+Cflags: -I/home/team1/autonomy_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/binary_detector
+-I/home/team1/autonomy_ws/build/binary_detector
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="binary_detector"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/binary_detector/include/binary_detector/moc_groupbox.cpp
+/home/team1/autonomy_ws/src/binary_detector/include/binary_detector/groupbox.h

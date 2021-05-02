@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/shape_detector
+-I/home/team1/autonomy_ws/build/shape_detector
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="shape_detector"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/shape_detector/include/shape_detector/moc_segmentation_groupbox.cpp
+/home/team1/autonomy_ws/src/shape_detector/include/shape_detector/segmentation_groupbox.h

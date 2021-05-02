@@ -1,0 +1,8 @@
+prefix=/home/team1/autonomy_ws/devel
+
+Name: binary_detector
+Description: Description of binary_detector
+Version: 0.0.0
+Cflags: -I/home/team1/autonomy_ws/devel/include -I/home/team1/autonomy_ws/src/binary_detector/include
+Libs: -L${prefix}/lib -lbinary_detector
+Requires: cv_bridge dynamic_reconfigure geometry_msgs object_detection object_detection_2d object_detection_2d_msgs roscpp

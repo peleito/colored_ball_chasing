@@ -1,0 +1,8 @@
+prefix=/home/team1/autonomy_ws/devel
+
+Name: object_detection_3d_msgs
+Description: Description of object_detection_3d_msgs
+Version: 0.0.0
+Cflags: -I/home/team1/autonomy_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs std_msgs message_runtime

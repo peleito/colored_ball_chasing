@@ -1,0 +1,8 @@
+prefix=/home/team1/autonomy_ws/devel
+
+Name: morphology_filter
+Description: Description of morphology_filter
+Version: 0.0.0
+Cflags: -I/home/team1/autonomy_ws/devel/include -I/home/team1/autonomy_ws/src/morphology_filter/include
+Libs: -L${prefix}/lib -lmorphology_filter
+Requires: cv_bridge dynamic_reconfigure object_detection object_detection_2d

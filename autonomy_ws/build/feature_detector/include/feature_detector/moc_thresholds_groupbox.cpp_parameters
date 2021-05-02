@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/feature_detector
+-I/home/team1/autonomy_ws/build/feature_detector
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="feature_detector"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/feature_detector/include/feature_detector/moc_thresholds_groupbox.cpp
+/home/team1/autonomy_ws/src/feature_detector/include/feature_detector/thresholds_groupbox.h

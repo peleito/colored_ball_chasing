@@ -1,0 +1,12 @@
+%YAML:1.0
+---
+HSVFilter-h_min: 46
+HSVFilter-h_max: 69
+HSVFilter-s_min: 74
+HSVFilter-s_max: 183
+HSVFilter-v_min: 72
+HSVFilter-v_max: 156
+MorphologyFilter-operation: 2
+MorphologyFilter-num_iterations: 1
+BinaryDetector-min_length_frac: 5.0000000000000001e-03
+BinaryDetector-max_length_frac: 3.

@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/object_detection_2d_vis
+-I/home/team1/autonomy_ws/build/object_detection_2d_vis
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="object_detection_2d_vis"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/object_detection_2d_vis/include/object_detection_2d_vis/moc_visualizer.cpp
+/home/team1/autonomy_ws/src/object_detection_2d_vis/include/object_detection_2d_vis/visualizer.h

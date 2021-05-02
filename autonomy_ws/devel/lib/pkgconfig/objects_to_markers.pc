@@ -1,0 +1,8 @@
+prefix=/home/team1/autonomy_ws/devel
+
+Name: objects_to_markers
+Description: Description of objects_to_markers
+Version: 0.0.0
+Cflags: -I/home/team1/autonomy_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

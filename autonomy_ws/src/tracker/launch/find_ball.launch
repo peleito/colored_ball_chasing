@@ -1,0 +1,36 @@
+<launch>
+	<include file="$(find realsense2_camera)/launch/rs_d400_and_t265_registered.launch" />
+
+	<include file="$(find object_detection_2d_nodes)/launch/hsv_detection.launch" />
+
+	<node pkg="tracker" name="depth_extraction.py" type="depth_extraction.py" output="screen" />
+
+	<include file="$(find rtabmap_ros)/launch/rtabmap.launch">
+		<arg name="args"              value="-d --Mem/UseOdomGravity true --Optimizer/GravitySigma 0.3" /> 
+		<arg name="odom_topic"                    value="/t265/odom/sample" />
+		<arg name="frame_id"            value="t265_link"/>
+		<arg name="rgbd_sync"                 value="true" />
+		<arg name="depth_topic"                value="/d400/camera/aligned_depth_to_color/image_raw" />
+
+		<arg name="rgb_topic"                value="/d400/camera/color/image_raw"/>
+		<arg name="camera_info_topic"               value="/d400/camera/color/camera_info"/>
+		<arg name="approx_rgbd_sync"           value="false"/>
+		<arg name="visual_odometry"      value="false"/>
+
+	</include>
+	
+	<node pkg="tracker" name="transformer.py" type="transformer.py" output="screen" />
+
+	<!--<node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan" > 
+		<param name="output_frame_id" value="d400_depth_frame"/>
+		<remap from="image" to="/d400/camera/aligned_depth_to_color/image_raw" />
+		<remap from="camera_info" to="/d400/camera/aligned_depth_to_color/camera_info" />
+	</node>-->
+
+	<include file="$(find thk_nav)/launch/course_navigation.launch"/>
+
+	<node pkg="tracker" name="navigation_goals.py" type="navigation_goals.py" output="screen" />
+		
+	<!--<node type="rviz" name="rviz" pkg="rviz" />-->
+</launch>   
+

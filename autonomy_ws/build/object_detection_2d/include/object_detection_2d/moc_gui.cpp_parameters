@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/object_detection_2d
+-I/home/team1/autonomy_ws/build/object_detection_2d
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="object_detection_2d"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/object_detection_2d/include/object_detection_2d/moc_gui.cpp
+/home/team1/autonomy_ws/src/object_detection_2d/include/object_detection_2d/gui.h

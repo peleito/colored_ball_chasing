@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/hsv_filter
+-I/home/team1/autonomy_ws/build/hsv_filter
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="hsv_filter"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/hsv_filter/include/hsv_filter/moc_groupbox.cpp
+/home/team1/autonomy_ws/src/hsv_filter/include/hsv_filter/groupbox.h

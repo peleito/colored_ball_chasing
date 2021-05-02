@@ -1,0 +1,8 @@
+prefix=/home/team1/autonomy_ws/devel
+
+Name: feature_detector
+Description: Description of feature_detector
+Version: 0.0.0
+Cflags: -I/home/team1/autonomy_ws/devel/include -I/home/team1/autonomy_ws/src/feature_detector/include
+Libs: -L${prefix}/lib -lfeature_detector
+Requires: cv_bridge dynamic_reconfigure geometry_msgs object_detection object_detection_2d object_detection_2d_msgs roscpp

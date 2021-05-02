@@ -1,0 +1,9 @@
+-I/home/team1/autonomy_ws/src/distance_filter
+-I/home/team1/autonomy_ws/build/distance_filter
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="distance_filter"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/team1/autonomy_ws/build/distance_filter/include/distance_filter/moc_groupbox.cpp
+/home/team1/autonomy_ws/src/distance_filter/include/distance_filter/groupbox.h
